@@ -1,0 +1,65 @@
+.container-content{
+    width: 35%;
+    height: 70%;
+    background-color: rgb(129, 203, 218);
+    border-radius: 20px;
+}
+
+.container-comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-tweet{
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+hr{
+    width: 10%;
+}
+
+textarea{
+    background-color: #ffedcf;
+    border-radius: 10px;
+    width: 95%;
+    height: 15rem;
+    margin: 5px;
+    padding: 2px;
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+}
+
+.btn{
+    margin: 20px;
+    width: 10rem;
+    height: 10rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 5rem;
+    align-items: baseline;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-answer{
+    max-width: 30rem;
+    height: 10vh;
+}
+
+.container-old-tweets{
+    max-width: 30rem;
+}
+
+.answer{
+    max-width: 30rem;
+}
+p{
+    text-align: right;
+    color: rgb(28, 128, 25);
+}
